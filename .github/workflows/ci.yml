@@ -12,9 +12,11 @@ jobs:
         deno:
           - 1.18.0
           - 1.19.0
-          - 1.20.0
+          - 1.20.1
           - 1.21.0
           - 1.22.0
+          - v1.x
+          - canary
         os:
           - ubuntu-latest
           - macos-latest
