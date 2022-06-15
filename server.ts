@@ -1,4 +1,4 @@
-import { serve } from "https://deno.land/std@0.143.0/http/server.ts";
+import { serve } from "https://deno.land/std@0.128.0/http/server.ts";
 import { createRequestHandlerWithStaticFiles } from "@remix-run/deno";
 // Import path interpreted by the Remix compiler
 import * as build from "@remix-run/dev/server-build";
