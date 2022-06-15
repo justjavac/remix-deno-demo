@@ -38,6 +38,15 @@ jobs:
       - name: 📥 Install deps
         uses: bahmutov/npm-install@v1
 
+      - name: 👔 Format
+        run: npm run format -- --check
+
+      - name: 👔 Format
+        run: npm run format -- --check
+
+      - name: 💪 TypeCheck
+        run: npm run typecheck
+
       - name: 🏗 Build
         run: npm run build
 
