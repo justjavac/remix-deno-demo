@@ -37,8 +37,11 @@ jobs:
       - name: 👔 Format
         run: npm run format -- --check
 
+      - name: Echo
+        run: ls server.ts app/*/*.ts*
+
       - name: 👔 Format
-        run: npm run format -- --check
+        run: npm run lint
 
       - name: 💪 TypeCheck
         run: npm run typecheck
