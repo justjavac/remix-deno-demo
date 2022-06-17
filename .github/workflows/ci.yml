@@ -38,7 +38,7 @@ jobs:
         run: npm run format -- --check
 
       - name: Echo
-        run: ls server.ts app/*/*.ts*
+        run: ls server.ts app/**/*.ts*
 
       - name: 👔 Format
         run: npm run lint
